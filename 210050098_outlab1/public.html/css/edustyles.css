@@ -1,0 +1,31 @@
+td
+{
+	border: 1px solid #BBBBBB !important;
+	text-align: center;
+	background-color:#3e3e4b !important;
+	font-weight: 800 !important;
+    font-size: larger;
+}
+
+td:hover
+{
+	background-color: #FFCCCB;
+}
+
+th
+{
+	color: #FFFFFF;
+	background-color: #000033 !important;
+	border: 1px solid #000033 !important;
+}
+
+/*Parallax Image*/
+
+.parallax
+{
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

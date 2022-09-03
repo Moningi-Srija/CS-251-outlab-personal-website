@@ -1,0 +1,71 @@
+/*Time Table*/
+td
+{
+	border: 1px solid #BBBBBB !important;
+	text-align: center;
+	background-color:#3e3e4b !important;
+	font-weight: 800 !important;
+    font-size: larger;
+}
+
+td:hover
+{
+	background-color: #FFCCCB;
+}
+
+th.top
+{
+	text-align: center;
+}
+
+th.lhs
+{
+	text-align: right;
+}
+
+th.top,th.lhs,th.break
+{
+	color: #FFFFFF;
+	background-color: #000033 !important;
+	border: 1px solid #000033 !important;
+}
+
+th.corner
+{
+	color: #000033;
+	text-align: right;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+/*Text*/
+
+p
+{
+    font-size: larger;
+    padding: 0% 10%;
+}
+
+.textonparallax
+{
+	color: #000033;
+	font-weight: 900;
+	font-size: 100px;
+	text-align: center;
+	align-items: center;
+	padding: 20%;
+}
+
+/*Parallax Image*/
+
+.parallax
+{
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
